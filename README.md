@@ -31,9 +31,18 @@
 10. What am I?
     * linear time O(n) because it is one loop with a simple arithmetic operation
 
+#### not completed yet:
 11. Tower of Hanoi
 
 12. Iterative Version
+    * solve the drills 1-7 from the algorithms section with an iterative solution 
+    1. Counting sheep
+    2. Power Calculator
+    3. Reverse String
+    4. nth Triangular Number
+    5. String Splitter
+    6. Fibonacci
+    7. Factorial
 
 13. Recursive Big O
 
