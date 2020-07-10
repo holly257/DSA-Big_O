@@ -52,3 +52,17 @@ function triNum(num) {
 }
 
 //console.log(triNum(6))
+
+////5. String Splitter
+//in progress
+function splitOn(string, char) {
+    for(i=0; i<string.length; i++){
+        //console.log(string.charAt(i))
+        if(string.charAt(i) == char){
+            console.log(string.charAt(i))
+        }
+    }
+    console.log(string, char)
+}
+
+console.log(splitOn('02/20/2020', '/'))
