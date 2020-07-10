@@ -45,5 +45,18 @@
     7. Factorial
 
 13. Recursive Big O
+    - take your solutions from the recursive exercises in the previous checkpoint and identify the time complexities of each
+    1. Count Sheep - linear time - O(n)
+    2. Power Calculator - linear time - O(n)
+    3. Reverse string - linear time - O(n)
+    4. nth Triangular Number - linear time - O(n)
+    5. String Splitter - log time - O(n log n)
+    6. Fibonacci - exponential time - O(2^n)
+    7. Factorial - linear time - O(n)
+    8. Find way out of maze - polynomial - O(n^2)
+    9. Find all ways out of maze - polynomial - O(n^2)
+    10. Anagrams - polynomial - O(n^3)
+    11. Org Chart - polynomial - O(n^2)
+    12. Binary Rep - linear time - O(n)
 
 14. Iterative Big O
