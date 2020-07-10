@@ -47,7 +47,10 @@
     2. Implement your algorithm using recursion. Your program should display each movement of the disk from one rod to another.
     3. If you are given 5 disks, how do the rods look like after 7 recursive calls?
     4. How many moves are needed to complete the puzzle with 3 disks? with 4 disks? with 5 disks?
-    5. What is the runtime of your algorithm?
+        - 3 disks - 7 moves
+        - 4 disks - 15 moves
+        - 5 disks - 31 moves
+    5. What is the runtime of your algorithm? - polynomial - O(n^2)
 
 12. Iterative Version
 

@@ -11,13 +11,12 @@ function moveNDisks(N, fromPeg, toPeg, extraPeg) {
         moveNDisks(N - 1, extraPeg, toPeg, fromPeg);
     }
 }
-
 // now, let's try a test case with 5 disks
 moveNDisks(3, 'A', 'B', 'C');
 
+
 //12. Solve the following with iteration
 ////1. Counting Sheep
-
 function countSheep(num) {
     if (!num) {
         return null;
@@ -32,6 +31,7 @@ function countSheep(num) {
     return;
 }
 //countSheep(3);
+
 
 ////2. Power Calculator
 function powerCalculator(num, pow) {
@@ -48,6 +48,7 @@ function powerCalculator(num, pow) {
 }
 //console.log(powerCalculator(10, 4))
 
+
 ////3. Reverse String
 function stringRev(str) {
     let newStr = '';
@@ -59,6 +60,7 @@ function stringRev(str) {
 }
 //console.log(stringRev('hello'));
 
+
 ////4. nth Triangular Number
 function triNum(num) {
     let sum = 0;
@@ -67,8 +69,8 @@ function triNum(num) {
     }
     return sum;
 }
-
 //console.log(triNum(6))
+
 
 ////5. String Splitter
 let string = '02/20/2020';
@@ -112,6 +114,7 @@ String.prototype.myCustomSplit = function (splitVal) {
 };
 //console.log(string.myCustomSplit('/'))
 
+
 ////6. Fibonacci
 function getFib(num) {
     let a = 1;
@@ -132,6 +135,7 @@ function getFib(num) {
 //fib(6) = 8
 //fib(7) = 13
 //fib(8) = 21
+
 
 ////7. Factorial
 function getFactorial(num) {
