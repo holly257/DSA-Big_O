@@ -72,14 +72,14 @@
     2. Power Calculator - linear time - O(n)
     3. Reverse string - linear time - O(n)
     4. nth Triangular Number - linear time - O(n)
-    5. String Splitter - log time - O(n log n)
-    6. Fibonacci - exponential time - O(2^n)
+    5. String Splitter - linear time - O(n) - for worst case of every character being char it is checking for
+    6. Fibonacci - exponential time - O(2^n) - not polynomial becuase two seperate actions for each n, grows exponentially becuase each fib() means to solve many other fib(values - 1)
     7. Factorial - linear time - O(n)
-    8. Find way out of maze - polynomial - O(n^2)
-    9. Find all ways out of maze - polynomial - O(n^2)
-    10. Anagrams - polynomial - O(n^3)
-    11. Org Chart - polynomial - O(n^2)
-    12. Binary Rep - linear time - O(n)
+    8. Find way out of maze - quadratic time - O(n^2) or O(row*col)
+    9. Find all ways out of maze - quadratic time - O(n^2) or worst case-> exponential/factorial time - O((row*col)!)
+    10. Anagrams - exponential - O(2^n)
+    11. Org Chart - linear - O(n) - linear on the number of names 
+    12. Binary Rep - log time - O(log n)
 
 14. Iterative Big O
     -   take your solutions from the iterative exercises today and identify the time complexities of each
