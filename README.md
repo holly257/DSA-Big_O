@@ -87,6 +87,6 @@
     2. Power Calculator - linear time - O(n)
     3. Reverse String - linear time - O(n)
     4. nth Triangular Number - linear time - O(n)
-    5. String Splitter - polynomial - O(n^4)
+    5. String Splitter - linear - O(n)
     6. Fibonacci - linear - O(n)
     7. Factorial - linear - O(n)

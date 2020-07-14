@@ -12,11 +12,12 @@ function moveNDisks(N, fromPeg, toPeg, extraPeg) {
     }
 }
 // now, let's try a test case with 5 disks
-moveNDisks(3, 'A', 'B', 'C');
+//moveNDisks(3, 'A', 'B', 'C');
 
 
 //12. Solve the following with iteration
 ////1. Counting Sheep
+//////  O(n) Linear time
 function countSheep(num) {
     if (!num) {
         return null;
@@ -34,6 +35,7 @@ function countSheep(num) {
 
 
 ////2. Power Calculator
+//////  O(n) Linear time
 function powerCalculator(num, pow) {
     if (pow < 0) {
         return 'exponent should be >= 0';
@@ -50,6 +52,7 @@ function powerCalculator(num, pow) {
 
 
 ////3. Reverse String
+//////  O(n) Linear time
 function stringRev(str) {
     let newStr = '';
     for (i = str.length; i > 0; i--) {
@@ -62,6 +65,7 @@ function stringRev(str) {
 
 
 ////4. nth Triangular Number
+//////  O(n) Linear time
 function triNum(num) {
     let sum = 0;
     for (i = num; i > 0; i--) {
@@ -73,6 +77,7 @@ function triNum(num) {
 
 
 ////5. String Splitter
+//////  O(n) Linear time
 let string = '02/20/2020';
 String.prototype.myCustomSplit = function (splitVal) {
     const outputArr = [];
@@ -80,22 +85,14 @@ String.prototype.myCustomSplit = function (splitVal) {
     let nextVal = '';
     const splitlength = splitVal.length;
     let i = 0;
-    // ...Some code
+    
     while (i < string.length) {
         // When the current character is same as splitVal's first character
         if (string[i] === splitVal[0]) {
             let split_length_remaining = splitlength - 1;
             let split_length_passed = 1;
             let similarSplit = string[i];
-            while (split_length_remaining) {
-                if (string[i + split_length_passed] === splitVal[split_length_passed]) {
-                    similarSplit += string[i + split_length_passed];
-                    split_length_passed++;
-                    split_length_remaining--;
-                } else {
-                    break;
-                }
-            }
+
             if (!split_length_remaining) {
                 outputArr.push(nextVal);
                 nextVal = '';
@@ -112,10 +109,11 @@ String.prototype.myCustomSplit = function (splitVal) {
     outputArr.push(nextVal);
     return outputArr;
 };
-//console.log(string.myCustomSplit('/'))
+console.log(string.myCustomSplit('/'))
 
 
 ////6. Fibonacci
+//////  O(n) Linear time
 function getFib(num) {
     let a = 1;
     let b = 0;
@@ -138,6 +136,7 @@ function getFib(num) {
 
 
 ////7. Factorial
+//////  O(n) Linear time
 function getFactorial(num) {
     if (num === 0) {
         return 1;
